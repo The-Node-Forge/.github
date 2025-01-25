@@ -1,7 +1,16 @@
-# The Node Forge
+<p align="center">
 
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=DM+Sans&weight=800&size=40&duration=10&pause=500&color=BDBDBD&center=true&vCenter=true&repeat=false&width=1000&lines=The+Node+Forge)](https://git.io/typing-svg) 
+
+</p>
+
+<div align="center">
   <!-- profile views -->
   <img src="https://komarev.com/ghpvc/?username=The-Node-Forge&style=flat-square&color=blue" alt=""/>
+
+</div>
+    
+---
   
 Welcome to **The Node Forge**! 🔨✨
 
