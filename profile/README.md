@@ -1,5 +1,8 @@
 # The Node Forge
 
+  <!-- profile views -->
+  <img src="https://komarev.com/ghpvc/?username=The-Node-Forge&style=flat-square&color=blue" alt=""/>
+  
 Welcome to **The Node Forge**! 🔨✨
 
 We are a team of developers working together to forge high-quality npm packages designed to make life easier for JavaScript developers. Our goal is to create lightweight, efficient, and powerful tools that can help you build faster and more maintainable applications.
