@@ -1,5 +1,5 @@
 ---
-name: Feature Request
+name: 🚀 Feature Request
 about: Suggest an idea for this project
 title: "[Feature] Your feature idea title here"
 labels: enhancement
@@ -9,7 +9,7 @@ assignees: ''
 
 ## 🚀 Feature Request
 
-**Is your feature request related to a problem? Please describe.**  
+**Is your feature request related to a current package or problem? Please describe.**  
 A clear and concise description of what the problem is. For example, "I'm frustrated when..."
 
 **Describe the solution you'd like**  
