@@ -1,6 +1,6 @@
 ---
-name: NPM Idea
-about: Have an idea for an NPM package?
+name: Feature Request
+about: Suggest an idea for this project
 title: "[Feature] Your feature idea title here"
 labels: enhancement
 assignees: ''
@@ -23,3 +23,4 @@ Add any other context, screenshots, or examples about the feature request here.
 
 **Why is this feature important?**  
 Explain how this feature would benefit the community or improve the npm package development workflow.
+
