@@ -19,16 +19,15 @@ jobs:
     steps:
       - name: Send welcome message on new issue
         if: github.event_name == 'issues'
-        uses: peter-evans/issue-comment@v2
+        uses: peter-evans/create-or-update-comment@v2
         with:
           issue-number: ${{ github.event.issue.number }}
           body: "👋 Welcome to The Node Forge! Thanks for opening an issue. Let us know how we can help!"
 
       - name: Send welcome message on new pull request
         if: github.event_name == 'pull_request'
-        uses: peter-evans/issue-comment@v2
+        uses: peter-evans/create-or-update-comment@v2
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: "🚀 Thanks for your pull request! A reviewer will take a look soon."
-
 
