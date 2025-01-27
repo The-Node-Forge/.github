@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Join The Forge
-    url: https://github.com/The-Node-Forge/community/discussions/categories/general
+    url: https://github.com/orgs/The-Node-Forge/discussions/4
     about: "Want to join The Node Forge? Introduce yourself and let us know what you're interested in contributing!"
   - name: NPM Ideas
-    url: https://github.com/orgs/The-Node-Forge/discussions/categories/ideas
+    url: https://github.com/orgs/The-Node-Forge/discussions/5
     about: "Have an idea for a new NPM package? Share your thoughts and collaborate with the community."
   - name: Questions or Support
-    url: https://github.com/orgs/The-Node-Forge/discussions/categories/Q&A
+    url: https://github.com/orgs/The-Node-Forge/discussions/6
     about: "Need help or have questions? Start a discussion here."
