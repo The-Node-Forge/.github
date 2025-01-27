@@ -1,8 +1,18 @@
+---
+name: "💡 NPM Package Idea"
+about: "Propose a new NPM package idea for The Node Forge community"
+title: "[IDEA] Your Package Name Here"
+labels: ["npm-idea", "discussion"]
+assignees: ""
+---
+
 # 🛠️ NPM Package Idea
 
 ## 📘 Idea Overview
-- **Name of the Package**: (Propose a clear and concise name for your package)
-- **Tagline**: (A one-sentence summary of what your package does)
+- **Name of the Package**: 
+  (Propose a clear and concise name for your package.)
+- **Tagline**: 
+  (A one-sentence summary of what your package does.)
 
 ---
 
@@ -19,7 +29,7 @@
 ---
 
 ## ✨ Key Features
-- (List the core features or functionality of the package)
+- List the core features or functionality of the package:
   - Feature 1
   - Feature 2
   - Feature 3
