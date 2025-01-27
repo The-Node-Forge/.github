@@ -1,6 +1,6 @@
 ---
-name: Feature Request
-about: Suggest an idea for this project
+name: NPM Idea
+about: Have an idea for an NPM package?
 title: "[Feature] Your feature idea title here"
 labels: enhancement
 assignees: ''
