@@ -2,9 +2,15 @@ name: Welcome New Contributors
 
 on:
   issues:
-    types: [opened]
+    types:
+      - opened
   pull_request:
-    types: [opened]
+    types:
+      - opened
+
+permissions:
+  issues: write
+  pull-requests: write
 
 jobs:
   welcome:
@@ -16,3 +22,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "👋 Welcome to The Node Forge! Thanks for opening your first issue. Let us know how we can help!"
           pr-message: "🚀 Thanks for your first pull request! A reviewer will take a look soon."
+
