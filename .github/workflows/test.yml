@@ -1,22 +1,29 @@
-name: Run Tests
+name: Check Tests on PR
 
 on:
   pull_request:
     branches:
-      - main
-  push:
-    branches:
-      - main
+      - main 
 
 jobs:
   test:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 18
-      - run: npm cache clean --force
-      - run: npm ci
-      - run: npm test -- --verbose
+          node-version: '18'  # You can change this to any supported version of Node.js
+
+      # Step 3: Install dependencies (npm install or npm ci)
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Run tests (you can specify your test framework or use the default npm test)
+      - name: Run tests
+        run: npm test -- --verbose  # The verbose flag can help you debug if a test fails
