@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test
+        run: npm run test
 
       - name: Upload test results (optional)
         if: failure()  # Upload test results only if tests fail
