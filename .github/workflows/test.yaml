@@ -1,0 +1,32 @@
+name: Run Tests on Pull Request
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies for all packages
+        run: npm install
+
+      - name: Run tests for all packages
+        run: npm test  # This will trigger 'npm run test' for all packages due to workspaces
+
+      - name: Upload test results (optional)
+        if: failure()  # Upload test results only if tests fail
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: ./test-results  # Adjust the path where test results are saved if needed
