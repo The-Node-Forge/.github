@@ -22,7 +22,8 @@ We are a team of developers working together to forge high-quality npm packages 
 - **[Package 3 Name]**: A brief description of the package.
 
 ## Join the Forge
-To join The-Node-Forge open an issue with the title "Please invite me to the Forge" and submit! Thats it
+To join The-Node-Forge open an [Issue](https://github.com/The-Node-Forge/.github/issues) and select the "Please invite me to the Forge template" add your username and submit! Thats it!
+
 
 We are always open to contributions! If you have an idea for a new package or want to contribute to one of our existing ones, feel free to fork, create issues, or submit pull requests.
 
