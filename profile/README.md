@@ -19,9 +19,7 @@
 We are a team of developers working together to forge high-quality npm packages designed to make the development process easier. Our goal is to create lightweight, efficient, and powerful tools that help you build faster and more maintainable applications.
 
 ## Our Packages
-- **[Package 1 Name]**: A brief description of the package.
-- **[Package 2 Name]**: A brief description of the package.
-- **[Package 3 Name]**: A brief description of the package.
+- **[api-rate-limit](https://www.npmjs.com/package/@the-node-forge/api-rate-limit)**: A simple and efficient API rate limiter for JavaScript/TypeScript applications.
 
 ## 🔥 Join the Forge
 To join **The Node Forge**, open an [Issue](https://github.com/The-Node-Forge/.github/issues) and select the **"Please invite me to the Forge"** template. Add your username and submit! That’s it!
