@@ -21,6 +21,7 @@ We are a team of developers working together to forge high-quality npm packages 
 ## Our Packages
 - **[api-rate-limit](https://www.npmjs.com/package/@the-node-forge/api-rate-limit)**: A simple and efficient API rate limiter for JavaScript/TypeScript applications.
 - **[url-validator](https://www.npmjs.com/package/@the-node-forge/url-validator)**: A lightweight and efficient URL validation package for JavaScript/TypeScript applications. This package helps developers validate URL syntax, check if a URL is live, and ensure proper domain formatting for better security.
+- **[image-resizer-cli](https://www.npmjs.com/package/@the-node-forge/image-resizer-cli)**: Image Resizer CLI is a fast, lightweight, and versatile Node.js CLI tool for resizing, converting, compressing, and optimizing images in JPEG, PNG, WebP, and other formats.
 
 ## 🔥 Join the Forge
 To join **The Node Forge**, open an [Issue](https://github.com/The-Node-Forge/.github/issues) and select the **"Please invite me to the Forge"** template. Add your username and submit! That’s it!
