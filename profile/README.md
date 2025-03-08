@@ -23,6 +23,8 @@ We are a team of developers working together to forge high-quality npm packages 
 - **[url-validator](https://www.npmjs.com/package/@the-node-forge/url-validator)**: A lightweight and efficient URL validation package for JavaScript/TypeScript applications. This package helps developers validate URL syntax, check if a URL is live, and ensure proper domain formatting for better security.
 - **[image-resizer-cli](https://www.npmjs.com/package/@the-node-forge/image-resizer-cli)**: Image Resizer CLI is a fast, lightweight, and versatile Node.js CLI tool for resizing, converting, compressing, and optimizing images in JPEG, PNG, WebP, and other formats.
 - **[simple-web-scraper](https://www.npmjs.com/package/@the-node-forge/simple-web-scraper)**: A lightweight and configurable web scraper utility built with Puppeteer and Cheerio for automated data extraction, research, and aggregation. Features include configurable scraping rules, auto-throttling, and easy export to JSON/CSV.
+- **[jwt-utils](https://www.npmjs.com/package/@the-node-forge/jwt-utils)**: A fast, lightweight Node.js JWT library for generating, verifying, and managing JSON Web Tokens (JWTs). Supports authentication and token-based authorization for APIs built with Express, Fastify, Koa, Hapi, NestJS, and Next.js. Ideal for securing web applications, handling user authentication, and implementing role-based access control (RBAC).
+
 
 ## 🔥 Join the Forge
 To join **The Node Forge**, open an [Issue](https://github.com/The-Node-Forge/.github/issues) and select the **"Please invite me to the Forge"** template. Add your username and submit! That’s it!
