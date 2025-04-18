@@ -24,6 +24,8 @@ We are a team of developers working together to forge high-quality npm packages 
 - **[image-resizer-cli](https://www.npmjs.com/package/@the-node-forge/image-resizer-cli)**: Image Resizer CLI is a fast, lightweight, and versatile Node.js CLI tool for resizing, converting, compressing, and optimizing images in JPEG, PNG, WebP, and other formats.
 - **[simple-web-scraper](https://www.npmjs.com/package/@the-node-forge/simple-web-scraper)**: A lightweight and configurable web scraper utility built with Puppeteer and Cheerio for automated data extraction, research, and aggregation. Features include configurable scraping rules, auto-throttling, and easy export to JSON/CSV.
 - **[jwt-utils](https://www.npmjs.com/package/@the-node-forge/jwt-utils)**: A fast, lightweight Node.js JWT library for generating, verifying, and managing JSON Web Tokens (JWTs). Supports authentication and token-based authorization for APIs built with Express, Fastify, Koa, Hapi, NestJS, and Next.js. Ideal for securing web applications, handling user authentication, and implementing role-based access control (RBAC).
+- **[url-shortener](https://www.npmjs.com/package/@the-node-forge/url-shortener)**: A simple, fast, and Redis-backed URL shortener written in TypeScript. Supports custom aliases, TTL expiration, and works seamlessly in Node.js environments.  
+- **[loader-kit](https://www.npmjs.com/package/@the-node-forge/loader-kit)**: A lightweight, customizable loader library for JavaScript/TypeScript applications. Includes built-in spinner, progress bar, and dots loaders with smooth animations and one-liner integration.
 
 
 ## 🔥 Join the Forge
