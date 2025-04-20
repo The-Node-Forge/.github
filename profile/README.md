@@ -26,6 +26,7 @@ We are a team of developers working together to forge high-quality npm packages 
 - **[jwt-utils](https://www.npmjs.com/package/@the-node-forge/jwt-utils)**: A fast, lightweight Node.js JWT library for generating, verifying, and managing JSON Web Tokens (JWTs). Supports authentication and token-based authorization for APIs built with Express, Fastify, Koa, Hapi, NestJS, and Next.js. Ideal for securing web applications, handling user authentication, and implementing role-based access control (RBAC).
 - **[url-shortener](https://www.npmjs.com/package/@the-node-forge/url-shortener)**: A simple, fast, and Redis-backed URL shortener written in TypeScript. Supports custom aliases, TTL expiration, and works seamlessly in Node.js environments.  
 - **[loader-kit](https://www.npmjs.com/package/@the-node-forge/loader-kit)**: A lightweight, customizable loader library for JavaScript/TypeScript applications. Includes built-in spinner, progress bar, and dots loaders with smooth animations and one-liner integration.
+- **[regex-simplifier](https://www.npmjs.com/package/@the-node-forge/regex-simplifier)**: A small, developer-friendly regex utility library for JavaScript and TypeScript. Use it to build, test, and explain regular expressions in human-readable form.
 
 
 ## 🔥 Join the Forge
