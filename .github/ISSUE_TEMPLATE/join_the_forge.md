@@ -7,7 +7,7 @@ assignees: ''
 ---
 # Join The Forge
 Thank you for your interest in joining **The Node Forge**! 🎉  
-Please confirm your GitHub username below, and submit this issue to request an invitation.
+Please confirm your GitHub username below and submit this issue to request an invitation. Requests are reviewed manually, so an invitation isn't guaranteed.
 ## GitHub Username
 <!-- Replace `@your-username` with your GitHub username -->
 @your-username

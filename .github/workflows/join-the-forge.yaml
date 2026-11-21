@@ -1,40 +1,55 @@
 name: "Join the Forge"
 
+# Invites are no longer automatic. A request issue only results in an
+# invitation once an org owner applies the `invite-approved` label.
+
 on:
   issues:
     types:
       - opened
+      - labeled
 
 jobs:
-  invite-user:
-    if: startsWith(github.event.issue.title, 'Please invite me to the Forge')
+  acknowledge-request:
+    if: >-
+      github.event.action == 'opened' &&
+      startsWith(github.event.issue.title, 'Please invite me to the Forge')
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Comment on issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --repo "$REPO" \
+            --body "Thanks for your interest in The-Node-Forge! Membership requests are reviewed manually, and you'll get an invitation here if your request is approved."
+
+  invite-user:
+    if: >-
+      github.event.action == 'labeled' &&
+      github.event.label.name == 'invite-approved' &&
+      github.event.sender.login == 'Lanny-MacMillan' &&
+      startsWith(github.event.issue.title, 'Please invite me to the Forge')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - name: Add user to the organization
         env:
           GH_TOKEN: ${{ secrets.ORG_INVITE_TOKEN }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
         run: |
-          issue_user=${{ github.event.issue.user.login }}
-          org_name="The-Node-Forge"
-
-          echo "Inviting $issue_user to $org_name..."
-
-          # Send invitation via GitHub API
-          curl -X PUT \
-            -H "Authorization: token $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            https://api.github.com/orgs/$org_name/memberships/$issue_user \
-            -d '{"role":"member"}'
+          echo "Inviting $ISSUE_USER to The-Node-Forge..."
+          gh api --method PUT "orgs/The-Node-Forge/memberships/$ISSUE_USER" -f role=member
 
       - name: Comment on issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
         run: |
-          issue_number=${{ github.event.issue.number }}
-          repo=${{ github.repository }}
-
-          curl -X POST \
-            -H "Authorization: token $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/$repo/issues/$issue_number/comments \
-            -d '{"body":"You have been invited to join The-Node-Forge! Check your email to accept the invitation."}'
+          gh issue comment "$ISSUE_NUMBER" --repo "$REPO" \
+            --body "Your request was approved! Check your email to accept the invitation to The-Node-Forge."
