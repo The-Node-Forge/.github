@@ -30,7 +30,7 @@ We are a team of developers working together to forge high-quality npm packages 
 
 
 ## 🔥 Join the Forge
-To join **The Node Forge**, open an [Issue](https://github.com/The-Node-Forge/.github/issues) and select the **"Please invite me to the Forge"** template. Add your username and submit! That’s it!
+Want to join **The Node Forge**? Open an [Issue](https://github.com/The-Node-Forge/.github/issues) using the **"Please invite me to the Forge"** template. Membership requests are reviewed manually, and you'll get an invitation if yours is approved.
 
 We are always open to contributions! If you have an idea for a new package or want to contribute to one of our existing ones, feel free to fork, create issues, or submit pull requests.
 
